@@ -19,7 +19,6 @@ import com.retailtech.api_productos.repository.ProductRepository;
 public class ProductController {
     private final ProductRepository repository;
 
-    // Inyección de dependencias recomendada
     public ProductController(ProductRepository repository) {
         this.repository = repository;
     }
